@@ -6,7 +6,7 @@ A Loan Prediction Risk Analysis for Alphabet Soup.
 
 ### Purpose
 
-To create a binary classifier that was capable of predicting whether applicants will be successful if funded by Alphabet Soup.
+To design a binary classification model that was capable of predicting whether applicants will be successful if funded by Alphabet Soup. Then the model was optimized by modifying the input data and training to achieve a target predictive accuracy higher than 75%.
 
 ## Dataset
 
