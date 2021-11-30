@@ -32,7 +32,7 @@ Using knowledge of Pandas and the Scikit-Learn’s StandardScaler(), the dataset
 
 Using TensorFlow, a neural network or deep learning model was designed to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. Then compile, train, and evaluate the binary classification model to calculate the model’s loss and accuracy.
 
-See [AlphabetSoupCharity.ipynb]() file and [AlphabetSoupCharity.h5]() for Deliverable 1 and 2 code.
+See [AlphabetSoupCharity.ipynb](https://github.com/KimberlyCrawford/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb) file and [AlphabetSoupCharity.h5](https://github.com/KimberlyCrawford/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.h5) for Deliverable 1 and 2 code.
 
 ### Deliverable 3 Optimize the Model
 
