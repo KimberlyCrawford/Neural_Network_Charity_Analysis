@@ -2,11 +2,11 @@
 
 ## Overview
 
-A Loan Prediction Risk Analysis for Alphabet Soup.
+A Loan Prediction Risk Analysis for the Nonprofit Foundation, Alphabet Soup.
 
 ### Purpose
 
-To design a binary classification model that was capable of predicting whether applicants will be successful if funded by Alphabet Soup. Then the model was optimized by modifying the input data and training to achieve a target predictive accuracy higher than 75%.
+To design a binary classification deep learning model that was capable of predicting whether applicants were successful if funded by Alphabet Soup. Then the model was optimized by modifying the input data and training to achieve a target predictive accuracy higher than 75%.
 
 ## Dataset
 
@@ -32,7 +32,7 @@ Using knowledge of Pandas and the Scikit-Learn’s StandardScaler(), the dataset
 
 Using TensorFlow, a neural network or deep learning model was designed to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. Then compile, train, and evaluate the binary classification model to calculate the model’s loss and accuracy.
 
-See [AlphabetSoupCharity.ipynb](https://github.com/KimberlyCrawford/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb) file and [AlphabetSoupCharity.h5](https://github.com/KimberlyCrawford/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.h5) for Deliverable 1 and 2 code.
+See [AlphabetSoupCharity.ipynb](https://github.com/KimberlyCrawford/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb) file for Deliverable 1 and 2 code.
 
 ### Deliverable 3 Optimize the Model
 
@@ -49,14 +49,39 @@ A written report on the performance of the deep learning model created for Alpha
 #### Data Preprocessing
 
 1) What variable(s) are considered the target(s) for your model?
+
+- IS_SUCCESSFUL—Was the money used effectively
+
 2) What variable(s) are considered to be the features for your model?
+
+- APPLICATION_TYPE—Alphabet Soup application type
+- AFFILIATION—Affiliated sector of industry
+- CLASSIFICATION—Government organization classification
+- USE_CASE—Use case for funding
+- ORGANIZATION—Organization type
+- STATUS—Active status
+- INCOME_AMT—Income classification
+- SPECIAL_CONSIDERATIONS—Special consideration for application
+- ASK_AMT—Funding amount requested
+- IS_SUCCESSFUL—Was the money used effectively
+
 3) What variable(s) are neither targets nor features, and should be removed from the input data?
+
+- EIN and NAME—Identification columns
 
 #### Compiling, Training, and Evaluating the Model
 
 4) How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+number_input_features = len(X_train[0])
+hidden_nodes_layer1 =  80
+hidden_nodes_layer2 = 30
+
 5) Were you able to achieve the target model performance?
+
+
 6) What steps did you take to try and increase model performance?
+
 
 ## Summary
 
