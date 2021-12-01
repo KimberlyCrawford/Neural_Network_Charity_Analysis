@@ -6,7 +6,7 @@ A Loan Prediction Risk Analysis for the Nonprofit Foundation, Alphabet Soup.
 
 ### Purpose
 
-To design a binary classification deep learning model that was capable of predicting whether applicants were successful if funded by Alphabet Soup. Then the model was optimized by modifying the input data and training to achieve a target predictive accuracy higher than 75%.
+The purpose of this project was to design a binary classification deep learning model that was capable of predicting (with accuracy higher than 75%) whether applicants were successful if funded by Alphabet Soup. 
 
 ## Dataset
 
@@ -48,9 +48,7 @@ A written report on the performance of the deep learning model created for Alpha
 
 #### Data Preprocessing
 
-1) What variable(s) are considered the target(s) for your model?
-
-- IS_SUCCESSFUL—Was the money used effectively
+1) What variable(s) are considered the target(s) for your model? The IS_SUCCESSFUL variable was the target and answers the question whether the money received from the foundation was used effectively or not. The variable had two values: Yes = 1, No = 0. 
 
 2) What variable(s) are considered to be the features for your model?
 
@@ -77,10 +75,11 @@ number_input_features = len(X_train[0])
 hidden_nodes_layer1 =  80
 hidden_nodes_layer2 = 30
 
-5) Were you able to achieve the target model performance?
-
+5) Were you able to achieve the target model performance? No, the model designed when completing Deliverables 1 and 2 above resulted in predictive accuracy of 73%; therefore, the model design and parameters were changed to improve the performance as noted below. 
 
 6) What steps did you take to try and increase model performance?
+
+19.2.6 The most straightforward means of improving neural network performance is tweaking the model design and parameters.
 
 
 ## Summary
