@@ -42,7 +42,7 @@ Original Model Parameters and Accuracy:
 
 ### Deliverable 3 Optimize the Model
 
-Using TensorFlow, the model was optimized in order to achieve a target predictive accuracy higher than 75%. 
+Using TensorFlow, the model was optimized in order to achieve a target predictive accuracy higher than 75%. See [AlphabetSoupCharity_Optimzation](https://github.com/KimberlyCrawford/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimzation.ipynb) file for Deliverable 3 code.
 
 See [TensorFlow Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=gauss&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=1&seed=0.10587&showTestData=false&discretize=true&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&discretize_hide=true&regularization_hide=true&learningRate_hide=true&regularizationRate_hide=true&percTrainData_hide=true&showTestData_hide=true&noise_hide=true&batchSize_hide=true) for more information.
 
