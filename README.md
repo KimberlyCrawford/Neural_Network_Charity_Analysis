@@ -78,11 +78,11 @@ A written report on the performance of the deep learning model created for Alpha
 
 5) Were you able to achieve the target model performance? Yes, the new model resulted in predictive accuracy of 78%.
 
-
+![Optimized_accuracy.png](https://github.com/KimberlyCrawford/Neural_Network_Charity_Analysis/blob/main/Resources/Optimized_accuracy.png)
 
 6) What steps did you take to try and increase model performance? I changed the input variables and only dropped the "EIN" variable; the "NAME" variable was included in the features. I also changed the number of epochs from 100 to 50 and added a hidden layer while changing the activation functions to sigmoid on layers 2 and 3. See below: 
 
-
+![Optimized_parameters.png](https://github.com/KimberlyCrawford/Neural_Network_Charity_Analysis/blob/main/Resources/Optimized_parameters.png)
 
 ## Summary
 
