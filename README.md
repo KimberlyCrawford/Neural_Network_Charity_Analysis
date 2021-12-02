@@ -34,6 +34,12 @@ Using TensorFlow, a neural network or deep learning model was designed to create
 
 See [AlphabetSoupCharity.ipynb](https://github.com/KimberlyCrawford/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb) file for Deliverable 1 and 2 code.
 
+Original Model Parameters and Accuracy:
+
+![OriginalModel_sequential.png](https://github.com/KimberlyCrawford/Neural_Network_Charity_Analysis/blob/main/Resources/OriginalModel_sequential.png)
+
+![OriginalModel_accuracy.png](https://github.com/KimberlyCrawford/Neural_Network_Charity_Analysis/blob/main/Resources/OriginalModel_accuracy.png)
+
 ### Deliverable 3 Optimize the Model
 
 Using TensorFlow, the model was optimized in order to achieve a target predictive accuracy higher than 75%. 
