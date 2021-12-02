@@ -58,6 +58,7 @@ A written report on the performance of the deep learning model created for Alpha
 
 2) What variable(s) are considered to be the features for your model?
 
+- NAME--Identification column
 - APPLICATION_TYPE—Alphabet Soup application type
 - AFFILIATION—Affiliated sector of industry
 - CLASSIFICATION—Government organization classification
@@ -69,23 +70,18 @@ A written report on the performance of the deep learning model created for Alpha
 - ASK_AMT—Funding amount requested
 - IS_SUCCESSFUL—Was the money used effectively
 
-3) What variable(s) are neither targets nor features, and should be removed from the input data? The EIN and NAME variables were removed as they were identification columns.
+3) What variable(s) are neither targets nor features, and should be removed from the input data? The EIN variable was removed as it was an identification column.
 
 #### Compiling, Training, and Evaluating the Model
 
-4) How many neurons, layers, and activation functions did you select for your neural network model, and why? The number_input_features = len(X_train[0]), hidden_nodes_layer1 =  80, and hidden_nodes_layer2 = 30. Why???? 
+4) How many neurons, layers, and activation functions did you select for your neural network model, and why? For our input layer, we added the number of input features equal to the number of variables in our feature DataFrame (number_input_features = len(X_train[0])). hidden_nodes_layer1 =  50, and hidden_nodes_layer2 = 25 and hidden_nodes_layer3 = 12. 
 
-5) Were you able to achieve the target model performance? No, the model designed when completing Deliverables 1 and 2 above resulted in predictive accuracy of 73%; therefore, the model design and parameters were changed to improve the performance as noted below. 
+5) Were you able to achieve the target model performance? Yes, the new model resulted in predictive accuracy of 78%.
 
-6) What steps did you take to try and increase model performance?
 
-19.2.6 The most straightforward means of improving neural network performance is tweaking the model design and parameters. When it comes to tweaking a neural network model, a little can go a long way. If we tweak too many design aspects and parameters at once, we can cause a model to become less effective without a means of understanding why. To avoid trapping ourselves in endless optimization iterations, we can use characteristics of our input data to determine what parameters should be changed. There are a few means of optimizing a neural network:
 
-- Check out your input dataset.
-- Add more neurons to a hidden layer.
-- Add additional hidden layers.
-- Use a different activation function for the hidden layers.
-- Add additional epochs to the training regimen.
+6) What steps did you take to try and increase model performance? I changed the input variables and only dropped the "EIN" variable; the "NAME" variable was included in the features. I also changed the number of epochs from 100 to 50 and added a hidden layer while changing the activation functions to sigmoid on layers 2 and 3. See below: 
+
 
 
 ## Summary
