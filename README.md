@@ -86,5 +86,9 @@ A written report on the performance of the deep learning model created for Alpha
 
 ## Summary
 
-Summarize the overall results of the deep learning model. 
-Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+After making the changes to optimize our model:
+
+- We are able to correctly classify each of the points in the test data 78% of the time. 
+- The type of APPLICATION is one of the following: T3 (27037), T4 (1542), T6 (1216), T5 (1173), T19 (1065), T8 (737), T7 (725), T10 (528), and Other (276).
+- The application has 71 classifications.
+- Another model to recommend might include the Random Forest model because Random Forest are good for classification problems. Using a Random Forest model will most likely produce higher accuracy percentages.
