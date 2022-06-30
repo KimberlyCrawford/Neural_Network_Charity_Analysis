@@ -92,3 +92,5 @@ After making the changes to optimize our model:
 - The type of APPLICATION is one of the following: T3 (27037), T4 (1542), T6 (1216), T5 (1173), T19 (1065), T8 (737), T7 (725), T10 (528), and Other (276).
 - The application has 71 classifications.
 - Another model to recommend might include the Random Forest model because Random Forest are good for classification problems. Using a Random Forest model will most likely produce higher accuracy percentages.
+
+#### Module 19, Data Analysis & Visualization Certificate Program, UT Austin McCombs School of Business, 2021.
